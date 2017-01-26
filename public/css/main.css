@@ -49,3 +49,45 @@ html, body {
   margin: 0;
   font-family: sans-serif;
 }
+
+.nav-container {
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.nav-list {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-right: 1px solid lightgrey;
+  margin: auto -2px;
+}
+
+.nav-list li:first-child {
+  border-left: 1px solid lightgrey;
+}
+
+.nav-list li:hover {
+  border-bottom: 5px solid green;
+}
+
+.section-container {
+  display:inline-block;
+  border: 1px solid lightgrey;
+  margin-top:25px;
+}
+
+main section:last-child {
+  height: 424.438px;
+  width: 312px;
+  position: absolute;
+  margin: 25px 5px;
+  text-align: center;
+
+
+}
