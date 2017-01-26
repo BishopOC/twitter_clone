@@ -80,14 +80,25 @@ html, body {
   display:inline-block;
   border: 1px solid lightgrey;
   margin-top:25px;
+  border-radius: 5px;
+  align-items: stretch;
 }
 
 main section:last-child {
   height: 424.438px;
-  width: 312px;
+  width: 310px;
   position: absolute;
   margin: 25px 5px;
   text-align: center;
+  background-color: #05E177;
+}
 
+main section div {
+  position: absolute;
+  top: 25%;
+  left: 22%;
+}
 
+main section header {
+  margin-left: 5px;
 }
