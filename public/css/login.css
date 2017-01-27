@@ -1,0 +1,48 @@
+div {
+  margin-top: 20%;
+  margin-left: 35%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  height: 20%;
+  width: 30%;
+}
+
+.field {
+  display: block;
+  margin-top:3%;
+  position:relative;
+  left: 33%;
+}
+
+h3 {
+  margin-top: -0.3%;
+  margin-left: -29%;
+  margin-right: 28.8%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  position:relative;
+  left: 29%;
+  text-align: center;
+}
+
+#login {
+  margin-bottom: 2%;
+  position:relative;
+  left: 43%;
+}
+
+footer {
+  border: 1px solid lightgrey;
+  border-radius: 5px;a
+  margin-bottom: -0.3%;
+  margin-left: -28.8%;
+  margin-right: 28.8%;
+  position:relative;
+  left: 29%;
+  text-align: center;
+
+}
+
+.textbox {
+  border-radius: 5px;
+}

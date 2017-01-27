@@ -8,19 +8,21 @@
   <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+  <div>
   <header>
     <h3>Login to Twitterish</h3>
   </header>
   <main>
     <form action="/login" method="GET">
-      <input type="email" name='email' placeholder='Email:' />
-      <input type="password" name='password' placeholder="Password:" />
-      <button type="submit">Login</button>
+      <input class='field textbox' type="email" name='email' placeholder='Email:' />
+      <input class='field textbox' type="password" name='password' placeholder="Password:" />
+      <button  class='field' id='login' type="submit">Login</button>
     </form>
   </main>
   <footer>
     No account? <a href="#">Sign up!</a>
   </footer>
+</div>
 
 </body>
 </html>
