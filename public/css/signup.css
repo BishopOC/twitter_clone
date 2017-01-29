@@ -42,7 +42,26 @@ html, body {
   text-decoration: underline;
   color:#20A5E8;
 }
-
+.downarrow {
+  width: 1px;
+  height: 1px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 1032px;
+  border-top: 4px solid white;
+}
+#down-arrow {
+  width: 1px;
+  height: 1px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 1197px;
+  border-top: 4px solid white;
+}
 main {
   display: inline-block;
   max-width: 500px;
