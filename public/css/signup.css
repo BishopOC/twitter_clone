@@ -2,22 +2,45 @@ html, body {
   margin: 0;
   padding: 0;
 }
+.img img {
+  height: 16px;
+  width: 20px;
+  display: inline-block;
+  position: relative;
+  right: 530px;
+  top:30px;
 
+}
 .banner {
   width:100%;
-  height:45px;
+  height:47px;
   background:-webkit-linear-gradient(left, #59ADEB, #35CE94);
   text-align: right;
+  display: inline-block;
 
 }
 
 .banner p {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 8px;
   margin-left: 20px;
   color: white;
   font-size: 12px;
   font-family: sans-serif;
+}
+
+.bannertext {
+  margin-right: 74px;
+  margin-top: -16px;
+}
+
+.bannerlink {
+  text-decoration: none;
+  color:white;
+}
+.bannerlink:hover {
+  text-decoration: underline;
+  color:#20A5E8;
 }
 
 main {
@@ -25,28 +48,113 @@ main {
   max-width: 500px;
   max-height: 516px;
   position:relative;
-  left: 33%;
-  margin-top: 8%;
+  left: 34.55%;
+  margin-top: 6.7%;
 }
 
-h1 {
+header p {
+  font-size: 29px;
   font-family: sans-serif;
   font-weight:lighter;
+  margin-bottom: 11px
 }
 
 .textbox {
   display: block;
-  margin-top: 20px;
-  height:25px;
-  width: 365px;
+  margin-top: 25px;
+  height:22px;
+  width: 373px;
   padding: 10px;
-  border-radius: 2px;
-  border: 1px solid lightgrey;
+  border-radius: 4px;
+  border: 1px solid #E1E8ED;
+  font-size: 17.5px;
+  font-weight: 400;
 }
-
+aside {
+  margin-top: 13px;
+}
 aside .checkbox {
 
   display:inline-block;
-  font-size: 12px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #687781;
+  margin-right: 0;
 
+}
+aside p a {
+  color: #1DA1F2;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+aside p a:hover {
+  color: #1DA1F2;
+  font-weight: 500;
+  text-decoration: underline;;
+}
+::-webkit-input-placeholder {
+  color:#B2BFC8;
+}
+
+input[type=text]:focus {
+  outline:none;
+  border: 1px solid #56B4EF;
+
+}
+input[type=email]:focus {
+  outline:none;
+  border: 1px solid #56B4EF;
+
+}
+input[type=password]:focus {
+  outline:none;
+  border: 1px solid #56B4EF;
+
+}
+
+button {
+  width: 395px;
+  height: 45px;
+  margin-top: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  background-color: #1DA1F2;
+  border: 1px solid white;
+}
+
+.signup {
+  position:relative;
+  bottom: 10px;
+}
+.signup a {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  font-family: sans-serif;
+  font-size: 12px;
+  max-width: 400px;
+  color: #8D9DA9;
+  line-height: 19px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #1F97E0;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer div a {
+  color: #1F97E0;
+}
+footer div p a:hover {
+  text-decoration: underline;
 }
